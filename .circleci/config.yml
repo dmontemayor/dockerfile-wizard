@@ -15,9 +15,9 @@ image_config: &image_config
 
   LINUX_VERSION: DEBIAN_JESSIE
 
-  # RUBY_VERSION_NUM: # pick a version from https://cache.ruby-lang.org/pub/ruby
+  # RUBY_VERSION_NUM: 2.5
 
-  # NODE_VERSION_NUM: # pick a version from https://nodejs.org/dist
+  # NODE_VERSION_NUM: 13.3.0
 
   PYTHON_VERSION_NUM: 3.2
 
@@ -63,8 +63,8 @@ jobs:
 
 ##      - run:
 ##          name: start Xvfb for phantomjs test
-##          # command: Xvfb :99
-##          # background: true
+##          # # command: Xvfb :99
+##          # # background: true
 
 ##      - run:
 ##          name: bats tests
