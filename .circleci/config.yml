@@ -15,11 +15,11 @@ image_config: &image_config
 
   LINUX_VERSION: DEBIAN_JESSIE
 
-  RUBY_VERSION_NUM: 2.4.2
+  #RUBY_VERSION_NUM: 2.4.2
 
-  NODE_VERSION_NUM: 13
+  #NODE_VERSION_NUM: 13
 
-  PYTHON_VERSION_NUM: 3.8
+  PYTHON_VERSION_NUM: 3.2
 
   JAVA: true
 
@@ -27,7 +27,7 @@ image_config: &image_config
 
   POSTGRES_CLIENT: false
 
-  DOCKERIZE: true
+  DOCKERIZE: false
 
   BROWSERS: false
 
